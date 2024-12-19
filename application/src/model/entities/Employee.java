@@ -2,15 +2,18 @@ package model.entities;
 
 public class Employee {
 
-    private String name;
-    private String email;
-    private Double salary;
+    private String name; // Nome do funcionário
+    private String email; // Email do funcionário
+    private Double salary; // Salário do funcionário
 
+    // Construtor da classe Employee
     public Employee(String name, String email, Double salary) {
         this.name = name;
         this.email = email;
         this.salary = salary;
     }
+
+    // Métodos getters e setters
     public String getName() {
         return name;
     }
